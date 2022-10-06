@@ -40,6 +40,6 @@ while True:
     if keyboard.read_key() == "right":
         diapo = diapo + 1
         nuevadiapo()
-    if keyboard.read_key() == "enter":
+    if keyboard.read_key() == "p":
         savediapos()
         exit(0)
